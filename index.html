@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <style>
+            *{
+                font-family: 'Roboto', sans-serif;
+            }
+        </style>
+    </head>
+    <body style="display: flex;justify-content: center;align-items: center;flex-direction: column;padding-top: 200px;">
+        <button id="connectBtn" onclick="connectEth()" style="font-family: 'Roboto', sans-serif;background-color: #f6851b;color:white;border-radius: 5px;padding: 10px;margin-bottom: 25px;">Connect to MetaMask</button>
+        <button id="disconnectBtn" onclick="walletDisconnect()" style="display: none;margin-bottom: 25px;">Disconnect</button>
+        <span id="address" class="margin-bottom: 25px;"></span>
+        <span id="balance" class="margin-bottom: 25px;"></span>
+        <p id="error" style="color: red;"></p>
+        <script src="./script.js"></script>
+    </body>
+
+    </html>
